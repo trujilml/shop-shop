@@ -2,16 +2,16 @@ import { reducer } from '../utils/reducers';
 //import actions
 import {
     UPDATE_PRODUCTS,
+    ADD_TO_CART,
+    UPDATE_CART_QUANTITY,
+    REMOVE_FROM_CART,
+    ADD_MULTIPLE_TO_CART,
     UPDATE_CATEGORIES,
     UPDATE_CURRENT_CATEGORY,
-    ADD_TO_CART,
-    ADD_MULTIPLE_TO_CART,
-    REMOVE_FROM_CART,
-    UPDATE_CART_QUANTITY,
     CLEAR_CART,
     TOGGLE_CART
-} from '../utils/actions';
-
+  } from '../utils/actions';
+  
 //create a sample of what our global state will look like
 const initialState = {
     products: [],
